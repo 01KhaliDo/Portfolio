@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.sidebar {
+    background-color: #6C63FF;
+    color: white;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+}
+
+.sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar nav ul li {
+    margin-bottom: 15px;  /* Lägg till avstånd mellan varje listobjekt */
+    padding: 10px 0;      /* Lägg till utrymme inuti varje listobjekt */
+}
+
+.sidebar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.main-content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.profile-section {
+    text-align: center;
+}
+
+.profile-section h1 {
+    color: #333;
+}
+
+.project {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    color: #6C63FF;
+}
+
+.project a {
+    color: #6C63FF;
+    text-decoration: none;
+}
+
+/* Media Queries för att göra sidan responsiv */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100px;
+    }
+
+    .main-content {
+        margin-left: 120px;
+    }
+
+    .social-links a {
+        display: block;
+        margin-top: 5px;
+    }
+}
